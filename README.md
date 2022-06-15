@@ -1,4 +1,8 @@
 # AI 자율주행
+
+### AI
+- 언어: Python
+- 하드웨어: mac(m1)
 ### 차선인식
 0. 학습 데이터: AI-HUB
 1. 전처리(데이터): GrayScale
