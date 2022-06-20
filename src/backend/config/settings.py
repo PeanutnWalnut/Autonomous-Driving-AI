@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-d8#bmvquun*c2(tzlvn4o-qpxx=n%ui3lpsz6cbta*7x!j7h=%'
+SECRET_KEY = 'django-insecure-p71axwfuksr4e$%!*1uswfdq9x+sg%=j)(zob5d#wn*n6ij5#$'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -31,6 +31,9 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'upload.apps.UploadConfig',
+    
+    # Django apps
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -111,8 +114,7 @@ TIME_ZONE = 'Asia/Seoul'
 
 USE_I18N = True
 
-# USE_TZ = True
-USE_TZ = False
+USE_TZ = True
 
 
 # Static files (CSS, JavaScript, Images)

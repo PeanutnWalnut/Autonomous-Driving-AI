@@ -1,16 +1,15 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 
-defineProps<{ msg: string }>()
-
-const count = ref(0)
+defineProps<{
+  title: string,
+  subtitle: string,
+}>()
 </script>
 
 <template>
- 
- <p>
-    <h1> AI 자율주행 차선인식</h1>
- </p>
+  <h1>{{ title }}</h1>
+  <h2>{{ subtitle }}</h2>
 </template>
 
 <style scoped>
