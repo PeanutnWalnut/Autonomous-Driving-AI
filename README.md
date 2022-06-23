@@ -12,7 +12,9 @@
 3. 추론:
 
 **참고: https://medium.com/@mrhwick/simple-lane-detection-with-opencv-bfeb6ae54ec0
+
 ### 번호판 인식
+- Tesseract OCR
 
 ### DB, 서버
 - FrontEnd: Vue.ts
