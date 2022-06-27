@@ -6,10 +6,10 @@ CONFIDENCE = 0.9
 THRESHOLD = 0.3
 LABELS = ['Car', 'Plate']
 CAR_WIDTH_TRESHOLD = 500
-img_path = '/Users/jjk/Desktop/git/TeamProject_AI_AUTO/src/frontend/data/num3.jpeg'
+img_path = '/Users/jjk/Desktop/git/TeamProject/src/frontend/data/num3.jpeg'
 cap = cv2.VideoCapture(img_path)
 
-net = cv2.dnn.readNetFromDarknet('/Users/jjk/Desktop/git/TeamProject_AI_AUTO/src/frontend/src/AI/License plate recognition _parking lot/cfg/yolov4-ANPR.cfg', '/Users/jjk/Desktop/git/TeamProject_AI_AUTO/src/frontend/src/AI/License plate recognition _parking lot/yolov4-ANPR.weights')
+net = cv2.dnn.readNetFromDarknet('/Users/jjk/Desktop/git/TeamProject/src/frontend/src/AI/License plate recognition _parking lot/cfg/yolov4-ANPR.cfg', '/Users/jjk/Desktop/git/TeamProject/src/frontend/src/AI/License plate recognition _parking lot/yolov4-ANPR.weights')
 
 #module = Module()
 
