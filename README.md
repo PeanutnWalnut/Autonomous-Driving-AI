@@ -15,6 +15,10 @@
 
 ### 번호판 인식
 - Tesseract OCR
+0. 학습 데이터: AI-HUB
+1. 전처리(데이터): NVM
+2. 학습모델: YOLOv4
+3. 추론: openCV
 
 ### DB, 서버
 - FrontEnd: Vue.ts
